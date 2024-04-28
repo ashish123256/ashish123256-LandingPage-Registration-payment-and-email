@@ -1,0 +1,101 @@
+
+
+.landContain {
+  text-align: center;
+  padding: 50px;
+}
+
+.landContain h1 {
+  color: white;
+  font-size: 36px;
+}
+
+.landContain .orange {
+  color: orange;
+}
+
+.landContain .underline {
+  text-decoration: underline;
+}
+
+.landContain h1 img {
+  width: 50px;
+  background: white;
+}
+
+.landingP {
+  font-size: 23px;
+  color: white;
+  margin-bottom: 35px;
+}
+
+.landingP span {
+  color: orange;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imageContainer > div {
+  padding: 20px;
+}
+
+.imageContainer img {
+  max-width: 100%;
+}
+
+.time {
+  border: 3px solid rgb(30, 29, 29);
+  background-color: rgb(39, 37, 37);
+}
+
+@media only screen and (min-width: 768px) {
+  .imageContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.offerButton {
+  background-color: yellow;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.offerButton h1 {
+  color: black;
+  margin: 0;
+}
+
+.offerButton span {
+  font-size: 16px;
+  color: red;
+}
+
+.offerButton span.line {
+  text-decoration: line-through;
+  font-size: 16px;
+  color: red;
+}
+
+.fo{
+  display: flex;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1453px) {
+  footer img {
+    max-width: 1453px; 
+  }
+}
+
+

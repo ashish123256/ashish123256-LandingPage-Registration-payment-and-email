@@ -1,0 +1,41 @@
+
+
+.underline{
+    text-decoration:line-through
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer{
+    display: flex;
+    height: 200px;
+    background-color: rgb(249 250 251);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+@media screen and (max-width: 950px) {
+    .box {
+        flex-direction: column ;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer {
+        padding: 40px;
+        margin-top: 40px;
+        height: 300px;
+        flex-direction: column ;
+    }
+}
+
+
+
