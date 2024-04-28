@@ -61,7 +61,7 @@ const Payment = () => {
         toast.promise(
           resolveAfter3Sec,
           {
-            pending: 'Payment verified successfully',
+            pending: 'Payment verified pending',
             success: "Payment verified successfully",
             error: 'Promise rejected '
           }
