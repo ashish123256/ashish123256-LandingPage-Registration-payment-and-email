@@ -188,19 +188,19 @@ const Register = () => {
          <h1 style={{color:"rgb(31 41 55)",fontSize:"18px",marginTop:"45px"}}>By the end of this 3-hour certified AI Tools workshop, you will also get a completion certificate by Be10X.</h1>
          <div className="footer">
            <div>
-            <img style={{width:"20%"}} src={dataSafe} alt="datasafe" />
-            <h1 style={{color:"rgb(107 114 128)", fontSize:"15px", marginRight:"25px"}}>Your Data is Safe With Us</h1>
+            <img style={{width:"20%",marginRight:"10px"}} src={dataSafe} alt="datasafe" />
+            <h1 style={{color:"rgb(107 114 128)", fontSize:"15px", marginRight:"20px"}}>Your Data is Safe With Us</h1>
            </div>
            <div>
-            <img style={{width:"20%"}} src={privacy} alt="privacy" />
-            <h1 style={{color:"rgb(107 114 128)", fontSize:"15px",marginRight:"25px"}}>We Protect Your Privacy</h1>
+            <img style={{width:"20%",marginRight:"10px"}} src={privacy} alt="privacy" />
+            <h1 style={{color:"rgb(107 114 128)", fontSize:"15px",marginRight:"20px"}}>We Protect Your Privacy</h1>
            </div>
            <div>
-            <img style={{width:"20%"}} src={guaranteed} alt="guaranteed" />
-            <h1 style={{color:"rgb(107 114 128)", fontSize:"15px",marginRight:"25px"}}>100% Satisfaction Guaranteed</h1>
+            <img style={{width:"20%",marginRight:"10px"}} src={guaranteed} alt="guaranteed" />
+            <h1 style={{color:"rgb(107 114 128)", fontSize:"15px",marginRight:"20px"}}>100% Satisfaction Guaranteed</h1>
            </div>
            <div>
-            <img style={{width:"60%"}} src={ssl} alt="ssl" />
+            <img style={{width:"90%"}} src={ssl} alt="ssl" />
            </div>
            <div >
            <span style={{color:"red",fontWeight:"bold",fontSize:"14px"}}>100% Secure Transaction.</span>
