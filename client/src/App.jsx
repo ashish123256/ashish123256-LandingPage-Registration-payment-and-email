@@ -26,7 +26,12 @@ function App() {
               </div>
             }
           />
-          <Route path="/payment" element={<Payment />} />
+         <Route path="/payment" 
+             element={
+             <div className="payment-page">
+              <Payment />
+              </div>
+            } />
         </Routes>
       </BrowserRouter>
     </>
